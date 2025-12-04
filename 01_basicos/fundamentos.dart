@@ -1,6 +1,8 @@
+import 'dart:ffi';
+
 void main() {
   print("Fundamentos de Dart");
-  Hola_mundo()
+  Hola_mundo();
 }
 
 //Esta es la primera nota acerca de como funciona dart, tuve que desactivar la ia temporalmente
@@ -28,8 +30,8 @@ void main() {
 //nuevas por asi decirlo, voy a realizar un hola mundo en una funcion separada para poder llamarlo desde el main
 //para poner a prueba todo lo que acabo de aprender.
 
-String Hola_mundo(){
-  print("Hola mundo")
+void Hola_mundo(){
+  print("Hola mundo");
 }
 
 // y tambien algo super importanter que no hay que olvidar es el ;, es como el punto entre cada oracion, o como cada salto de linea en python
